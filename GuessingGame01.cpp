@@ -7,6 +7,7 @@ int main(){
     int guessCount=0;
     int guessLimit=3;
     int outOfGuess=0;
+    //Here while loop will work until the guess = secretNumber : 
     while(guess!=secretNumber and outOfGuess==0){
         if(guessCount<guessLimit){
             printf("Enter a number : ");
